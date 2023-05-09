@@ -1,59 +1,46 @@
-import Image from 'next/image';
-
 const About = () => {
   return (
-    <section className="bg-gray-100">
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <section className="bg-gray-100 py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">About Me</h2>
-          <p className="mt-4 text-lg text-gray-500">I am a passionate web developer with experience in both frontend and backend development. Here's a little bit about my current knowledge:</p>
+          <h2 className="text-4xl font-bold text-gray-800 mb-2">About Me</h2>
+          <p className="text-lg text-gray-600 mb-8">Here's my current stack:</p>
         </div>
-        <div className="mt-20">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
-            <div>
-            <dt className="text-2xl leading-6 font-medium text-gray-900 text-center flex justify-center mx-auto">Frontend</dt>
-
-              <dd className="mt-5 text-base text-gray-500 text-center">
-                <ul className="pl-0 list-none">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>TypeScript</li>
-                  <li>React</li>
-                  <li>Next.js</li>
-                  <li>Vue 3</li>
-                  <li>Nuxt 3</li>
-                </ul>
-              </dd>
-            </div>
-
-            <div>
-              <dt className="text-2xl leading-6 font-medium text-gray-900 text-center">Backend</dt>
-              <dd className="mt-5 text-base text-gray-500 text-center">
-                <ul className="pl-0 list-none">
-                  <li>Node.js</li>
-                  <li>Express</li>
-                  <li>Mongoose</li>
-                  <li>MongoDB</li>
-                  <li>Nitro</li>
-                  <li>Firebase</li>
-                </ul>
-              </dd>
-            </div>
-
-            <div>
-              <dt className="text-2xl leading-6 font-medium text-gray-900  text-center ">Tools</dt>
-              <dd className="mt-5 text-base text-gray-500 text-center">
-                <ul className="pl-0 list-none">
-                  <li>Git</li>
-                  <li>Github</li>
-                  <li>Postman</li>
-                  <li>Photoshop</li>
-                  <li>Vercel</li>
-                  <li>Vs Code</li>
-                </ul>
-              </dd>
-            </div>
-          </dl>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-white shadow rounded-lg p-8">
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">Frontend</h3>
+            <ul className="text-lg text-gray-600">
+              <li className="mb-2">HTML</li>
+              <li className="mb-2">CSS</li>
+              <li className="mb-2">TypeScript</li>
+              <li className="mb-2">React</li>
+              <li className="mb-2">Next.js</li>
+              <li className="mb-2">Vue 3</li>
+              <li className="mb-2">Nuxt 3</li>
+            </ul>
+          </div>
+          <div className="bg-white shadow rounded-lg p-8">
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">Backend</h3>
+            <ul className="text-lg text-gray-600">
+              <li className="mb-2">Node.js</li>
+              <li className="mb-2">Express</li>
+              <li className="mb-2">Mongoose</li>
+              <li className="mb-2">MongoDB</li>
+              <li className="mb-2">Nitro</li>
+              <li className="mb-2">Firebase</li>
+            </ul>
+          </div>
+          <div className="bg-white shadow rounded-lg p-8">
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">Tools</h3>
+            <ul className="text-lg text-gray-600">
+              <li className="mb-2">Git</li>
+              <li className="mb-2">Github</li>
+              <li className="mb-2">Postman</li>
+              <li className="mb-2">Photoshop</li>
+              <li className="mb-2">Vercel</li>
+              <li className="mb-2">VS Code</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
