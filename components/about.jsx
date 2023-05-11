@@ -39,6 +39,7 @@ const About = () => {
               <li className="mb-2">Photoshop</li>
               <li className="mb-2">Vercel</li>
               <li className="mb-2">VS Code</li>
+              <li className="mb-2">Linux & Windows OS</li>
             </ul>
           </div>
         </div>
