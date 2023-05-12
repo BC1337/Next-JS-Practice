@@ -16,7 +16,7 @@ const Hero = () => {
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">
               full-stack
             </span>
-            &nbsp;web developer with just over 1 year of experience. I specialize in building high-performance&nbsp;
+            &nbsp;web developer. I specialize in building high-performance&nbsp;
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500"> 
             applications
             </span>
@@ -24,17 +24,17 @@ const Hero = () => {
           </p>
           <div className="mt-10 sm:flex justify-center">
             <div className="rounded-md shadow">
-              <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-white hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 transition duration-300 ease-in-out md:py-4 md:text-lg md:px-10">
+              <a href="#projects" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-white hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 transition duration-300 ease-in-out md:py-4 md:text-lg md:px-10">
                 View Projects
               </a>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
-              <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-200 bg-gray-700 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 transition duration-300 ease-in-out md:py-4 md:text-lg md:px-10">
+              <a href="#projects" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-200 bg-gray-700 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 transition duration-300 ease-in-out md:py-4 md:text-lg md:px-10">
                 Resume
               </a>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
-              <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-200 bg-gray-700 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 transition duration-300 ease-in-out md:py-4 md:text-lg md:px-10">
+              <a href="#projects" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-200 bg-gray-700 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 transition duration-300 ease-in-out md:py-4 md:text-lg md:px-10">
                 Contact Me
               </a>
             </div>
